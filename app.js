@@ -26,10 +26,10 @@ function addTodo(event) {
     todoDiv.appendChild(newTodo);
 
     //CHECK MARK BUTTON
-    const compleatedButton = document.createElement('button');
-    compleatedButton.innerHTML = '<i class="fas fa-check"></i>';
-    compleatedButton.classList.add("completed-btn");
-    todoDiv.appendChild(compleatedButton);
+    const completedButton = document.createElement('button');
+    completedButton.innerHTML = '<i class="fas fa-check"></i>';
+    completedButton.classList.add("completed-btn");
+    todoDiv.appendChild(completedButton);
     //BIN BUTTON
     const binButton = document.createElement('button');
     binButton.innerHTML = '<i class="fas fa-trash"></i>';
@@ -120,10 +120,10 @@ function getTodos() {
         newTodo.classList.add('todo-item');
         todoDiv.appendChild(newTodo);
         //CHECK MARK BUTTON
-        const compleatedButton = document.createElement('button');
-        compleatedButton.innerHTML = '<i class="fas fa-check"></i>';
-        compleatedButton.classList.add("completed-btn");
-        todoDiv.appendChild(compleatedButton);
+        const completedButton = document.createElement('button');
+        completedButton.innerHTML = '<i class="fas fa-check"></i>';
+        completedButton.classList.add("completed-btn");
+        todoDiv.appendChild(completedButton);
         //BIN BUTTON
         const binButton = document.createElement('button');
         binButton.innerHTML = '<i class="fas fa-trash"></i>';
